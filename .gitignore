@@ -8,3 +8,4 @@ npm-debug.*
 dist/
 package-log.json
 app/css/*
+node_modules

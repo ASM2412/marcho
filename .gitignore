@@ -3,9 +3,8 @@
 .idea/*
 .vscode
 *.sublime*
-npm-debug.*
-
-dist/
 mode_modules/
+npm-debug.*
+dist/
 package-log.json
 app/css/*

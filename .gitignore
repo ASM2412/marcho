@@ -5,6 +5,6 @@
 *.sublime*
 npm-debug
 dist/
-mode_modules
+mode_modules/
 package-log.json
 app/css/*

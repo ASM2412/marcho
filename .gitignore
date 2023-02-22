@@ -3,7 +3,7 @@
 .idea/*
 .vscode
 *.sublime*
-npm-debug.*
+npm-debug
 dist/
 mode_modules
 package-log.json

@@ -8,3 +8,4 @@ dist/
 mode_modules/
 package-log.json
 app/css/*
+mode_modules

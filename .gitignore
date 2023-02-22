@@ -3,9 +3,18 @@
 .idea/*
 .vscode
 *.sublime*
+<<<<<<< HEAD
+=======
 npm-debug
 dist/
+>>>>>>> 8cb4d0fc91130ff9714a2bd8abc6bda16f1a6932
 mode_modules/
+npm-debug.*
+dist/
 package-log.json
 app/css/*
+<<<<<<< HEAD
+node_modules
+=======
 mode_modules
+>>>>>>> 8cb4d0fc91130ff9714a2bd8abc6bda16f1a6932

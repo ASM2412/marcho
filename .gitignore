@@ -10,4 +10,4 @@ npm-debug.*
 dist/
 package-log.json
 app/css/*
-mode_modules
+node_modules

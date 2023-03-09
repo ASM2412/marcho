@@ -1,5 +1,11 @@
 $(function(){
 
+  $('.blog-page__slider').slick({
+    prevArrow: '<button type="button" class="slick-prev"><svg xmlns="http://www.w3.org/2000/svg" width="9px" height="14px" viewBox="0 0 9 18" version="1.1"><g><path d="M 0.332031 8.207031 C -0.109375 8.644531 -0.109375 9.359375 0.332031 9.796875 L 5.957031 15.421875 C 6.394531 15.863281 7.109375 15.863281 7.546875 15.421875 C 7.988281 14.984375 7.988281 14.269531 7.546875 13.832031 L 2.71875 9 L 7.542969 4.167969 C 7.984375 3.730469 7.984375 3.015625 7.542969 2.578125 C 7.105469 2.136719 6.390625 2.136719 5.953125 2.578125 L 0.328125 8.203125 Z M 0.332031 8.207031 "/></g></svg></button>',
+    nextArrow: '<button type="button" class="slick-next"><svg xmlns="http://www.w3.org/2000/svg" width="9px" height="14px" viewBox="0 0 9 18" version="1.1"><g><path d="M 8.667969 8.207031 C 9.109375 8.644531 9.109375 9.359375 8.667969 9.796875 L 3.042969 15.421875 C 2.605469 15.863281 1.890625 15.863281 1.453125 15.421875 C 1.011719 14.984375 1.011719 14.269531 1.453125 13.832031 L 6.28125 9 L 1.457031 4.167969 C 1.015625 3.730469 1.015625 3.015625 1.457031 2.578125 C 1.894531 2.136719 2.609375 2.136719 3.046875 2.578125 L 8.671875 8.203125 Z M 8.667969 8.207031 "/></g></svg></button>',
+    infinite: false,
+  });
+  
   $('.product-slide__thumb').slick({
     asNavFor: '.product-slide__big',
     focusOnSelect: true,
@@ -15,6 +21,7 @@ $(function(){
     fade: true
   });
 
+  
   $('.shop-content__filter-btn').on('click', function () {
     $('.shop-content__filter-btn').removeClass('shop-content__filter-btn--active');
     $(this).addClass('shop-content__filter-btn--active');
@@ -102,6 +109,5 @@ $(function(){
     
     const deadline = $('.promo__clock').attr('data-time');
     initializeClock('promo__clock', deadline);
-
-
-})
+    
+});
